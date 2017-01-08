@@ -5,13 +5,6 @@ html, body {
     background-color: #f2f2f2;
 }
 
-.col-lg-6 .description {
-  margin-top: 100px;
-  font-size: 3em;
-  padding: 30px;
-  font-family: Lato,Helvetica,sans-serif;
-}
-
 nav.navbar.navbar-inverse {
   margin-bottom: 0px;
 }
@@ -41,7 +34,28 @@ nav {
 
 #designation {
   margin-top: 10px;
-  font-size: 2em;
+  font-size: 1.5em;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat','Lato',sans-serif;
+}
+
+.col-lg-6 {
+  padding-top: 10px;
+  marign-left: 10px;
+}
+
+.greeting {
+  margin-top: 50px;
+  font-size: 3em;
+  font-family: 'Montserrat','Lato',sans-serif;
+  margin-bottom: 50px;
+}
+
+.description {
+  font-size: 2.2em;
+  font-family: 'Lato',Helvetica,sans-serif;
 }
 
 img {
@@ -64,7 +78,7 @@ footer {
 
 footer h4 {
   color: #fff;
-  font-family: Lato,Helvetica,sans-serif;
+  font-family: 'Montserrat',Helvetica,sans-serif;
   text-align: center;
   font-size: 16px;
 }
